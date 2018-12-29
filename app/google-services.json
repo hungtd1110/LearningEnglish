@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "964098279522",
+    "firebase_url": "https://learning-english-83fa2.firebaseio.com",
+    "project_id": "learning-english-83fa2",
+    "storage_bucket": "learning-english-83fa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964098279522:android:dfe155cccab13da0",
+        "android_client_info": {
+          "package_name": "com.example.admin.learningenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964098279522-q5hbfek7a2ft122427j05kj4v0tqudp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.learningenglish",
+            "certificate_hash": "38dc6a2223954e969a2fb0d7aa996767e67f568a"
+          }
+        },
+        {
+          "client_id": "964098279522-3o9rje5lg1dijfv00sj51ho3g5oth0cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.learningenglish",
+            "certificate_hash": "c85c34ac85d63e1f00789bc1d62e8c17fd1300d8"
+          }
+        },
+        {
+          "client_id": "964098279522-0maeoa63u3lu2pa8ooguhqnujaddo1t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN3hdrMrALqqfqzx6N_8wpS3N7lhH0xiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964098279522-0maeoa63u3lu2pa8ooguhqnujaddo1t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

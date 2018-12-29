@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgMenuVocabulary"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_item_listview_vocabulary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtWord"
+            android:layout_toLeftOf="@+id/txtCenter"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="10dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Từ"
+            android:layout_marginRight="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTranslate"
+            android:layout_toRightOf="@+id/txtCenter"
+            android:layout_marginLeft="-30dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Nghĩa"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtKindWord"
+            android:layout_below="@+id/txtWord"
+            android:textSize="14dp"
+            android:text="/n/"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

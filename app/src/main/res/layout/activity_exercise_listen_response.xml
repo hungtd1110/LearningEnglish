@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exercise_listen_response"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.admin.learningenglish.listen_response.activities.ExerciseListenResponseActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutMedia"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtTimeCurrent"
+                android:text="00:00"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:text="00:00"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <SeekBar
+                android:id="@+id/skbAudio"
+                android:thumbTint="@color/colorAccent"
+                android:progressTint="@color/colorAccent"
+                android:layout_toRightOf="@+id/txtTimeCurrent"
+                android:layout_toLeftOf="@+id/txtTime"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgPlay"
+                android:src="@drawable/play"
+                android:layout_centerVertical="true"
+                android:layout_width="36dp"
+                android:layout_height="36dp" />
+
+            <ProgressBar
+                android:id="@+id/pbPlay"
+                android:layout_centerVertical="true"
+                android:layout_width="36dp"
+                android:layout_height="36dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:background="@drawable/button_submit_custom"
+                android:textColor="@color/colorPrimary"
+                android:layout_toRightOf="@+id/imgPlay"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:layout_width="70dp"
+                android:layout_height="36dp" />
+
+            <ImageView
+                android:id="@+id/imgNext"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/button_submit_custom"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/forward"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp" />
+
+            <ImageView
+                android:id="@+id/imgPre"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/button_submit_custom"
+                android:layout_toLeftOf="@+id/imgNext"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/come_back"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvNgheTraLoi"
+        android:layout_above="@+id/layoutMedia"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</RelativeLayout>

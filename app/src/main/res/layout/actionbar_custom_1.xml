@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlActionbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#F2F2F2"
+            android:text="Learning English"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgTimKiem"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_search_white_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlActionbarBot"
+        android:layout_below="@+id/rlActionbarTop"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnHocTiep"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_hoctiep_custom"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="Học tiếp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:layout_width="70dp"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/txtBaiHoc"
+            android:layout_toLeftOf="@+id/btnHocTiep"
+            android:layout_alignParentLeft="true"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="Đang học : Hunger Rates Fall, but the Decrease Slows"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

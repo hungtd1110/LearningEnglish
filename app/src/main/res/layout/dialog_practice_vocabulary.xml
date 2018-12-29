@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingLeft="16dp"
+    android:paddingRight="20dp">
+
+    <Spinner
+        android:id="@+id/spKindPractice"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/edtNumberWord"
+        android:hint="Số từ"
+        android:layout_marginLeft="4dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

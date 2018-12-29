@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#000080</color>-->
+    <!--<color name="colorPrimaryDark">#000080</color>-->
+    <!--<color name="colorAccent">#2E9AFE</color>-->
+
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#B2E0FF</color>
+    <color name="vocaularyTrue">#00BCD4</color>
+    <color name="vocaularyFalse">#FF5722</color>
+
+</resources>

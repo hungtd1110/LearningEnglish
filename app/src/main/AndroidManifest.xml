@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.learningenglish">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dictionary.activities.TranslationActivity" />
+        <activity android:name=".dictionary.activities.RecentActivity" />
+        <activity android:name=".dictionary.activities.WordMarkActivity" />
+        <activity android:name=".grammar.activities.ContentGrammarActivity" />
+        <activity android:name=".grammar.activities.ExerciseGrammarActivity" />
+        <activity android:name=".reading.activities.ExerciseReadingActivity" />
+        <activity android:name=".listen.activities.ContentListenActivity" />
+        <activity android:name=".listen_response.activities.ExerciseListenResponseActivity" />
+        <activity android:name=".dictionary.activities.TranslateImageActivity" />
+        <activity android:name=".vocabulary.activities.PracticeVocabularyActivity" />
+        <activity android:name=".vocabulary.activities.FinishVocabularyActivity"></activity>
+    </application>
+
+</manifest>
