@@ -21,16 +21,23 @@
    * Tương tự phần 5
 7. Khác
    * Cái bài tập phần 4, 5, 6 có lưu trữ lại điểm người dùng, dựa vào đó đưa ra gợi ý bài học
+   
+<br>
+
+#### Tải file APK
+[Download APK](/data/LearningEnglish.apk)
+
+<br>
 
 #### Ảnh minh họa
 <p>
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-10-59-14.png">
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-11-01-10.png">
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-11-03-52.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-10-59-14.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-11-01-10.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-11-03-52.png">
 </p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <p>
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-11-04-13.png">
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-11-04-44.png">
-<img align="left" width="180" height="320" hspace="30px" src="/images/Screenshot_2019-01-02-11-05-06.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-11-04-13.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-11-04-44.png">
+<img align="left" width="180" height="320" hspace="30px" src="/data/Screenshot_2019-01-02-11-05-06.png">
 </p>
